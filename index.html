@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Game</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Material Icons -->
+     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+</head>
+<body>
+
+    <div class="game-info">
+        <div class="time">Time: <span id="timer">0</span>s</div>
+        <div class="flips">Flips: <span id="flips">0</span></div>
+        <button id="reset-btn">Reset</button>
+    </div>
+    
+
+    <div class="wrapper">
+        <ul class="cards">
+            <li class="card">
+                <div class="view front-view">
+                    <span class="material-icons">question_mark</span>
+                </div>
+                <div class="view back-view">
+                    <img src="assets/img-1.png" alt="card-img">
+                </div>
+            </li>
+
+
+            <li class="card">
+                <div class="view front-view">
+                    <span class="material-icons">question_mark</span>
+                </div>
+                <div class="view back-view">
+                    <img src="assets/img-2.png" alt="card-img">
+                </div>
+            </li>
+
+
+            <li class="card">
+                <div class="view front-view">
+                    <span class="material-icons">question_mark</span>
+                </div>
+                <div class="view back-view">
+                    <img src="assets/img-3.png" alt="card-img">
+                </div>
+            </li>
+
+
+            <li class="card">
+                <div class="view front-view">
+                    <span class="material-icons">question_mark</span>
+                </div>
+                <div class="view back-view">
+                    <img src="assets/img-4.png" alt="card-img">
+                </div>
+            </li>
+
+
+            <li class="card">
+                <div class="view front-view">
+                    <span class="material-icons">question_mark</span>
+                </div>
+                <div class="view back-view">
+                    <img src="assets/img-5.png" alt="card-img">
+                </div>
+            </li>
+
+
+            <li class="card">
+                <div class="view front-view">
+                    <span class="material-icons">question_mark</span>
+                </div>
+                <div class="view back-view">
+                    <img src="assets/img-6.png" alt="card-img">
+                </div>
+            </li>
+
+
+            <li class="card">
+                <div class="view front-view">
+                    <span class="material-icons">question_mark</span>
+                </div>
+                <div class="view back-view">
+                    <img src="assets/img-7.png" alt="card-img">
+                </div>
+            </li>
+
+
+            <li class="card">
+                <div class="view front-view">
+                    <span class="material-icons">question_mark</span>
+                </div>
+                <div class="view back-view">
+                    <img src="assets/img-8.png" alt="card-img">
+                </div>
+            </li>
+
+
+            <li class="card">
+                <div class="view front-view">
+                    <span class="material-icons">question_mark</span>
+                </div>
+                <div class="view back-view">
+                    <img src="assets/img-1.png" alt="card-img">
+                </div>
+            </li>
+
+
+            <li class="card">
+                <div class="view front-view">
+                    <span class="material-icons">question_mark</span>
+                </div>
+                <div class="view back-view">
+                    <img src="assets/img-2.png" alt="card-img">
+                </div>
+            </li>
+
+
+            <li class="card">
+                <div class="view front-view">
+                    <span class="material-icons">question_mark</span>
+                </div>
+                <div class="view back-view">
+                    <img src="assets/img-3.png" alt="card-img">
+                </div>
+            </li>
+
+
+            <li class="card">
+                <div class="view front-view">
+                    <span class="material-icons">question_mark</span>
+                </div>
+                <div class="view back-view">
+                    <img src="assets/img-4.png" alt="card-img">
+                </div>
+            </li>
+
+
+            <li class="card">
+                <div class="view front-view">
+                    <span class="material-icons">question_mark</span>
+                </div>
+                <div class="view back-view">
+                    <img src="assets/img-5.png" alt="card-img">
+                </div>
+            </li>
+
+
+            <li class="card">
+                <div class="view front-view">
+                    <span class="material-icons">question_mark</span>
+                </div>
+                <div class="view back-view">
+                    <img src="assets/img-6.png" alt="card-img">
+                </div>
+            </li>
+
+
+            <li class="card">
+                <div class="view front-view">
+                    <span class="material-icons">question_mark</span>
+                </div>
+                <div class="view back-view">
+                    <img src="assets/img-7.png" alt="card-img">
+                </div>
+            </li>
+
+
+            <li class="card">
+                <div class="view front-view">
+                    <span class="material-icons">question_mark</span>
+                </div>
+                <div class="view back-view">
+                    <img src="assets/img-8.png" alt="card-img">
+                </div>
+            </li>
+            
+        </ul>
+    </div>
+
+    <div class="end-screen hidden" id="endScreen">
+        <div class="message" id="endMessage"></div>
+        <div class="stats">
+            <p>Time: <span id="endTime"></span> seconds</p>
+            <p>Flips: <span id="endFlips"></span></p>
+        </div>
+        <button id="playAgainBtn">Play Again</button>
+    </div>
+    
+
+    <script src="script.js"></script>
+
+</body>
+</html>

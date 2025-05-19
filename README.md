@@ -12,6 +12,11 @@ Can you match them all before the night fades and the jungle sleeps again? 🌳�
   <img src="assets/game.png" width="700"/>
 </p>
 
+
+
+[Click to play the Game !!!](https://rashadul-islam-code.github.io/Memory-Card-Game/) 
+
+
 🎮 **Features:**
 - Beautiful jungle-themed UI 🌲
 - Fun animal icons 🐿️🦊🦜

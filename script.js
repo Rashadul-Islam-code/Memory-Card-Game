@@ -4,7 +4,7 @@ const endTime = document.getElementById('endTime');
 const endFlips = document.getElementById('endFlips');
 const playAgainBtn = document.getElementById('playAgainBtn');
 
-let maxTime = 90; // 1 minute 30 seconds
+let maxTime = 60; // 1 minute 
 
 
 const cards = document.querySelectorAll('.card');

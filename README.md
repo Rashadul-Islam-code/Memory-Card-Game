@@ -14,7 +14,7 @@ Can you match them all before the night fades and the jungle sleeps again? 🌳�
 
 
 
-[Click to play the Game !!!](https://rashadul-islam-code.github.io/Memory-Card-Game/) 
+👉[Click Here to Play The Game !!!](https://rashadul-islam-code.github.io/Memory-Card-Game/) 
 
 
 🎮 **Features:**
